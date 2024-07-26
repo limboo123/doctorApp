@@ -1,3 +1,4 @@
+import 'package:batch_bhutan2/Important/log_in.dart';
 import 'package:batch_bhutan2/chairs.dart';
 import 'package:batch_bhutan2/hey.dart';
 import 'package:batch_bhutan2/music.dart';
@@ -67,7 +68,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home:SplashScreen(),
+      home:LogIn(),
     );
   }
 }
